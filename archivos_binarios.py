@@ -1,6 +1,6 @@
 import pickle
 
-Lista = [1,2,3,4,5, ["Juan"], "Pedro"]
+Lista = [1,2,3,4,5, ["Juanes"], "Pedro"]
 
 with open("Lista.dat", "wb") as fp:
     pickle.dump(Lista, fp)
