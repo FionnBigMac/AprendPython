@@ -1,7 +1,9 @@
 #reconocimiento/clasificación de patrones para el próximo proyecto
 #scitkit learn, uci repository, pandas
 #Tarea KNN
-#Instalar MPI
+#Instalar MPI en colab: ! pip install mpi4py
+#from mpi4py import PMI
+# se tiene que hacer mpirun -np num_procesos python3 Ejemplo1.py desde terminar o el equivalente
 
 from sklearn import datasets
 import pandas as pd
